@@ -1,0 +1,177 @@
+/* ===========================
+   WikiBebas
+   Tema: Putih–Hitam Minimalis, Serif Klasik
+   =========================== */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  color: #111;
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+/* Header atau Navigasi */
+
+header.topnav {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #111;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+/* Konten */
+
+.container {
+  max-width: 900px;
+  padding: 0 1rem;
+  margin: 2.5rem auto;
+}
+
+.lede {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+article h1, article h2, article h3 {
+  margin-top: 1.4em;
+  margin-bottom: 0.6em;
+  color: #000;
+}
+
+article ul, article ol {
+  margin-left: 1.5em;
+}
+
+pre {
+  padding: 0.75rem;
+  background: #f9f9f9;
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  color: #333;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+}
+
+code {
+  padding: 2px 5px;
+  font-size: 0.9rem;
+  background-color: #f3f3f3;
+  border-radius: 3px;
+}
+
+/* Pencarian & Daftar Artikel */
+
+.search-bar {
+  margin: 1.5rem 0;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.6rem;
+  color: #111;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.article-list {
+  padding: 0;
+  list-style: none;
+}
+
+.article-list li {
+  padding-bottom: 1rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.article-list a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.article-list a:hover {
+  text-decoration: underline;
+}
+
+.article-list .desc {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+
+.site-footer {
+  padding: 1rem;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
+
+.muted {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Responsif */
+
+@media (max-width: 600px) {
+  header.topnav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0.3rem 0 0.3rem 0;
+  }
+
+  .container {
+    margin-top: 1.5rem;
+  }
+}
