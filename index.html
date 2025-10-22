@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WikiBebas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topnav" role="banner">
+    <div class="site-title">WikiBebas</div>
+    <nav role="navigation" aria-label="Utama">
+      <a href="index.html" class="active">Tentang</a>
+      <a href="kontribusi.html">Kontribusi</a>
+      <a href="artikel.html">Artikel</a>
+    </nav>
+  </header>
+
+  <main class="container" role="main">
+    <article>
+      <h1>Tentang WikiBebas</h1>
+
+      <p class="lede">
+        WikiBebas adalah proyek repositori wiki statis yang dikelola melalui GitHub.
+        Setiap artikel disimpan sebagai file HTML di dalam repositori,
+        siapa pun dapat mengedit lewat Pull Request. Situs ini berfokus pada
+        kesederhanaan, desain hitam & putih dan tipografi serif klasik.
+      </p>
+
+      <h2>Prinsip Dasar</h2>
+      <ul>
+        <li><strong>Repo-driven:</strong> konten dikelola di GitHub.</li>
+        <li><strong>Tanpa backend:</strong> semua halaman statis, mudah di-host di GitHub Pages.</li>
+        <li><strong>Terbuka:</strong> kontribusi melalui fork & PR, review oleh maintainer.</li>
+      </ul>
+
+      <h2>Struktur Proyek</h2>
+      <pre>
+wikibebas/
+├─ index.html
+├─ contribution.html
+├─ article.html
+├─ style.css
+├─ script.js
+└─ articles.json
+      </pre>
+
+      <h2>Catatan teknis singkat</h2>
+      <p class="muted">
+        Halaman ini menggunakan file CSS & JS terpisah (modular). Untuk menampilkan daftar artikel,
+        buka <code>artikel.html</code> file akan mengambil data dari <code>articles.json</code>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    &copy; WikiBebas
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
