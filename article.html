@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WikiBebas — Artikel Unggulan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topnav" role="banner">
+    <div class="site-title">WikiBebas</div>
+    <nav role="navigation" aria-label="Utama">
+      <a href="index.html">Tentang</a>
+      <a href="kontribusi.html">Kontribusi</a>
+      <a href="artikel.html" class="active">Artikel</a>
+    </nav>
+  </header>
+
+  <main class="container" role="main">
+    <article>
+      <h1>Artikel Unggulan</h1>
+
+      <p class="lede">
+        Berikut adalah kumpulan artikel unggulan dari komunitas WikiBebas.
+        Semua tautan menuju file HTML.
+      </p>
+
+      <div class="search-bar">
+        <label for="searchInput" class="sr-only">Cari artikel</label>
+        <input type="text" id="searchInput" placeholder="Cari artikel..." aria-label="Cari artikel">
+      </div>
+
+      <ul id="articleList" class="article-list">
+        <!-- Artikel akan dimuat lewat script.js -->
+      </ul>
+
+      <p class="muted">
+        Data artikel dimuat dari <code>articles.json</code>.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    &copy; WikiBebas
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
