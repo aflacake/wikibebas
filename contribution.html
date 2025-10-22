@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WikiBebas — Cara Berkontribusi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topnav" role="banner">
+    <div class="site-title">WikiBebas</div>
+    <nav role="navigation" aria-label="Utama">
+      <a href="index.html">Tentang</a>
+      <a href="kontribusi.html" class="active">Kontribusi</a>
+      <a href="artikel.html">Artikel</a>
+    </nav>
+  </header>
+
+  <main class="container" role="main">
+    <article>
+      <h1>Cara Berkontribusi</h1>
+
+      <p class="lede">
+        WikiBebas terbuka untuk semua orang. Kamu dapat memperbaiki kesalahan, menambahkan artikel,
+        atau mengusulkan pembaruan langsung melalui GitHub tanpa perlu server backend.
+      </p>
+
+      <h2>Langkah-langkah Kontribusi</h2>
+      <ol>
+        <li>
+          <strong>Fork repositori</strong> di GitHub:  
+          <a href="https://github.com/aflacake/wikibebas" target="_blank">
+            github.com/aflacake/wikibebas
+          </a>
+        </li>
+        <li>
+          Tambahkan atau ubah artikel di folder <code>contents</code> (biasanya dalam format <code>.html</code>).
+        </li>
+        <li>
+          Commit perubahan dan buat <strong>Pull Request</strong> untuk direview oleh maintainer.
+        </li>
+      </ol>
+
+      <h2>Tips Penulisan</h2>
+      <ul>
+        <li>Gunakan bahasa yang jelas, netral, dan mudah dipahami.</li>
+        <li>Tambahkan sumber rujukan jika perlu.</li>
+        <li>Gunakan format HTML untuk penulisan artikel.</li>
+      </ul>
+
+      <h2>Contoh Template Artikel</h2>
+		<script src="https://gist.github.com/aflacake/7c52d3442705015d3f93420d2c9fd270.js"></script>
+
+      <p>
+        Setelah PR kamu diterima, halaman akan diperbarui otomatis oleh GitHub Pages.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    &copy; WikiBebas
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
