@@ -2,16 +2,16 @@
   {
     "title": "Pengantar WikiBebas",
     "desc": "Penjelasan singkat tentang apa itu WikiBebas, tujuan dibuatnya, dan konsep kebebasan berekspresi dalam proyek ini.",
-    "url": "contents/pengantar-wikibebas.md"
+    "url": "contents/pengantar-wikibebas.html"
   },
   {
     "title": "Cara Berkontribusi di WikiBebas",
     "desc": "Panduan sederhana bagaimana cara mengedit atau menambahkan artikel langsung di GitHub repository.",
-    "url": "contents/cara-berkontribusi.md"
+    "url": "contents/cara-berkontribusi.html"
   },
   {
     "title": "Etika Penulisan di Proyek Terbuka",
     "desc": "Panduan etika dasar untuk menjaga kualitas, objektivitas, dan keterbukaan dalam penulisan di WikiBebas.",
-    "url": "contents/etika-penulisan.md"
+    "url": "contents/etika-penulisan.html"
   }
 ]
