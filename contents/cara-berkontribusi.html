@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cara Berkontribusi di WikiBebas</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="topnav" role="banner">
+    <div class="site-title">WikiBebas</div>
+    <nav role="navigation" aria-label="Utama">
+      <a href="../index.html">Tentang</a>
+      <a href="../kontribusi.html">Kontribusi</a>
+      <a href="../artikel.html">Artikel</a>
+    </nav>
+  </header>
+
+  <main class="container" role="main">
+    <article>
+      <h1>Cara Berkontribusi di WikiBebas</h1>
+
+      <p class="lede">
+        Setiap orang berhak berbagi pengetahuan. Di WikiBebas, kontribusi bukan tentang kesempurnaan,
+        melainkan tentang keberanian untuk menulis dan berbagi. Berikut langkah-langkah sederhana
+        untuk mulai berkontribusi di proyek ini.
+      </p>
+
+      <h2>1. Buka Repositori WikiBebas</h2>
+      <p>
+        Semua artikel disimpan secara terbuka di GitHub pada repositori:
+        <a href="https://github.com/aflacake/wikibebas" target="_blank">
+          github.com/aflacake/wikibebas
+        </a>.
+        Anda tidak perlu keahlian teknis tinggi, cukup akun GitHub dan semangat menulis!
+      </p>
+
+      <h2>2. Tambahkan atau Sunting Artikel</h2>
+      <p>
+        Untuk menulis artikel baru:
+      </p>
+      <ol>
+        <li>Buka folder <code>contents/</code> di dalam repositori.</li>
+        <li>Klik <strong>Add file > Create new file</strong>.</li>
+        <li>Gunakan format nama seperti <code>judul-artikel.html</code>.</li>
+        <li>Tulis isi artikelmu menggunakan HTML sederhana.</li>
+        <li>Simpan perubahan dengan pesan commit yang jelas.</li>
+      </ol>
+
+      <p>
+        Untuk menyunting artikel yang sudah ada, cukup buka file yang ingin diedit dan klik tombol <strong>Edit</strong>.
+      </p>
+
+      <h2>3. Gunakan Gaya Bebas</h2>
+      <p>
+        WikiBebas tidak menuntut gaya penulisan tertentu. Kamu bisa menulis ilmiah, reflektif, ringan,
+        atau bahkan eksperimental. Satu-satunya pedoman utama: <strong>tetap menghormati pembaca dan sumber asli.</strong>
+      </p>
+
+      <h2>4. Perbarui Daftar Artikel</h2>
+      <p>
+        Setelah menambahkan file baru, jangan lupa memperbarui berkas
+        <code>articles.json</code> di root proyek agar artikelmu muncul di halaman utama.
+        Tambahkan entri seperti ini:
+      </p>
+
+<pre><code>
+{
+  "title": "Pengantar WikiBebas",
+  "desc": "Penjelasan singkat tentang apa itu WikiBebas, tujuan dibuatnya, dan konsep kebebasan berekspresi dalam proyek ini.",
+  "url": "contents/pengantar-wikibebas.md"
+}
+</code></pre>
+
+      <h2>5. Bagikan & Diskusikan</h2>
+      <p>
+        Setiap perubahan di WikiBebas bersifat terbuka. Kamu dapat berdiskusi melalui tab “Issues”
+        di GitHub untuk memberi masukan, bertanya, atau mengusulkan ide baru.
+      </p>
+
+      <blockquote>
+        “Setiap tulisan kecil adalah kontribusi besar dalam membentuk lautan pengetahuan.”
+      </blockquote>
+
+      <p>
+        Selamat menulis dan selamat datang di komunitas WikiBebas!
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    &copy; WikiBebas — Panduan Kontribusi
+  </footer>
+</body>
+</html>
